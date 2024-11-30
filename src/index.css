@@ -1,0 +1,110 @@
+
+
+.bucket-wrapper{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buckets{
+    margin: auto;
+}
+.bucket{
+  width:200px;
+  height:300px;
+  border: 1px solid black;
+  /* margin: auto; */
+ 
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin: auto;
+}
+
+.active{
+  background-color: grey;
+}
+
+.bucketdiv ul li{
+    width: 100px;
+    list-style:none;
+    text-align: center;
+    border: 1px solid black ;
+    margin-top: 20px;
+}
+
+.technology ul{
+  list-style: none;
+  width: 300px;
+  height: auto;
+  overflow-y: scroll;
+}
+
+.technology ul li{
+    border: 1px solid black;
+}
+.active{
+   background-color: blueviolet;
+}
+
+.scroll{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 12;
+}
+
+.loading{
+    text-align: center;
+    font-size:x-large;
+    font-weight: 500;
+}
+
+.grid-container{
+    /* width: 500px;
+    height: 500px; */
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.grid-container>div{
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keyword{
+    color: crimson;
+    font-size: 45px
+}
+
+
+.box-container{
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.splitbox{
+    position: absolute;
+    border: 1px solid black;
+    margin:50px 400px;
+    cursor: pointer;
+}
